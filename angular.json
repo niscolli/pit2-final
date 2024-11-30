@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Sereno Café": {
+    "sereno_cafe": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/Sereno Café",
+            "outputPath": "dist/sereno_cafe",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -63,10 +63,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "Sereno Café:build:production"
+              "browserTarget": "sereno_cafe:build:production"
             },
             "development": {
-              "browserTarget": "Sereno Café:build:development"
+              "browserTarget": "sereno_cafe:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -74,7 +74,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "Sereno Café:build"
+            "browserTarget": "sereno_cafe:build"
           }
         },
         "test": {
