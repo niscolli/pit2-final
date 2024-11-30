@@ -1,0 +1,36 @@
+.compra-finalizada-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+  }
+  
+  .compra-finalizada-img {
+    max-width: 50%;
+    border-radius: 15px;
+    margin-bottom: 2rem;
+  }
+  
+  .compra-finalizada-titulo {
+    color: #28a745;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .compra-finalizada-texto {
+    font-size: 1.2rem;
+    color: #6c757d;
+  }
+  
+  .compra-finalizada-link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .compra-finalizada-link:hover {
+    text-decoration: underline;
+  }
+  

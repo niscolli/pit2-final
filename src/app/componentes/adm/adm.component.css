@@ -1,0 +1,26 @@
+.titulo {
+  display: flex;
+  justify-content: center;
+}
+
+.titulo > h2 {
+  font-size: 50px;
+  color: #692100 !important;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+.mb-3, .mb-5 {
+  text-transform: uppercase;
+  font-size: small;
+  letter-spacing: 1px;
+  color: #000;
+  font-weight: 700;
+}
+
+p-button {
+  width: 50%;
+}
